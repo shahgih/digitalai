@@ -1,0 +1,8 @@
+<link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+<script type="module">
+	import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+	createChat({
+		webhookUrl:  'https://digitalhub152.app.n8n.cloud/webhook/6977074a-fe86-4697-aed8-8897e68bd583/chat'
+	});
+</script>
